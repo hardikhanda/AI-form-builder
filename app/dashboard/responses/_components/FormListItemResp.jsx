@@ -8,7 +8,7 @@ import * as XLSX from 'xlsx';
 function FormListItemResp({ jsonForm, formRecord }) {
 
     const [loading, setLoading] = useState(false);
-    console.log(jsonForm, "hello")
+    // console.log(jsonForm, "hello")
     const ExportData = async () => {
         let jsonData = [];
         setLoading(true);
